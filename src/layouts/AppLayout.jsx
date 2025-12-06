@@ -5,26 +5,25 @@ import Footer from "../components/core/Footer";
 import CookiePopup from "../components/core/CookiePopUp";
 
 export default function AppLayout() {
-  return (
-    <Box
-      sx={{
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
-      <Header />
+    return (
+        <Box
+            sx={{
+                minHeight: "100vh",
+                display: "flex",
+                flexDirection: "column",
+            }}
+        >
+            <Header />
 
-      <Box component="main" sx={{ flexGrow: 1 }}>
-        <Container maxWidth="lg" sx={{ py: 4 }}>
-          <Outlet />
-        </Container>
-      </Box>
+            <Box component="main" sx={{ flexGrow: 1 }}>
+                <Container maxWidth="lg" sx={{ py: 4 }}>
+                    <Outlet />
+                </Container>
+            </Box>
 
-      <Footer />
+            <Footer />
 
-      {/* Lo implementaremos luego, de momento puedes dejarlo vacío */}
-      <CookiePopup />
-    </Box>
-  );
+            <CookiePopup />
+        </Box>
+    );
 }
