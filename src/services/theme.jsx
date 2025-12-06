@@ -28,7 +28,7 @@ export function ColorModeProvider({ children }) {
                         main: "#d1a75f", // dorado suave
                     },
                     background: {
-                        default: mode === "light" ? "#faf5f0" : "#121212",
+                        default: mode === "light" ? "#faf5f0" : "#121212ff",
                         paper: mode === "light" ? "#ffffff" : "#1e1e1e",
                     },
                     text: {

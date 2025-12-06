@@ -156,6 +156,9 @@ export default function Header() {
                         <MenuItem onClick={() => changeLanguage("ca")}>
                             CA
                         </MenuItem>
+                        <MenuItem onClick={() => changeLanguage("en")}>
+                            EN
+                        </MenuItem>
 
                         <MenuItem onClick={toggleColorMode}>
                             {mode === "light" ? "Dark mode" : "Light mode"}
