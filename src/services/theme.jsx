@@ -31,6 +31,10 @@ export function ColorModeProvider({ children }) {
                         default: mode === "light" ? "#faf5f0" : "#121212",
                         paper: mode === "light" ? "#ffffff" : "#1e1e1e",
                     },
+                    text: {
+                        primary: mode === "light" ? "#4b2e1e" : "#ffffff",
+                        secondary: mode === "light" ? "#6b4a3a" : "#cccccc",
+                    },
                 },
                 typography: {
                     fontFamily:

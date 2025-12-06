@@ -1,6 +1,10 @@
 import { Button } from "@mui/material";
+import { useColorModeTheme } from "../../services/theme";
 
 export default function HeaderButton({ children, onClick, component, to }) {
+    const { mode } = useColorModeTheme();
+    const textColor = mode === "light" ? "#4b2e1e" : "#ffffff";
+
     return (
         <Button
             component={component}
@@ -8,13 +12,16 @@ export default function HeaderButton({ children, onClick, component, to }) {
             onClick={onClick}
             sx={{
                 backgroundColor: "transparent",
-                color: "white",
+                color: textColor,
                 fontWeight: 500,
                 textTransform: "uppercase",
                 fontSize: "0.85rem",
                 letterSpacing: 1,
                 "&:hover": {
-                    backgroundColor: "rgba(255, 0, 0, 0.1)",
+                    backgroundColor:
+                        mode === "light"
+                            ? "rgba(75,46,30,0.08)"
+                            : "rgba(255,255,255,0.1)",
                 },
             }}
         >

@@ -21,6 +21,7 @@ import HeaderButton from "../shared/HeaderButton";
 export default function Header() {
     const { t, i18n } = useTranslation();
     const { mode, toggleColorMode } = useColorModeTheme();
+    const navTextColor = mode === "light" ? "#4b2e1e" : "#ffffff";
 
     const [anchorEl, setAnchorEl] = useState(null);
     const open = Boolean(anchorEl);
@@ -44,13 +45,13 @@ export default function Header() {
             elevation={0}
             sx={{
                 backgroundColor: "transparent",
-                color: "white",
+                color: navTextColor,
             }}
         >
             <Toolbar sx={{ justifyContent: "space-between" }}>
                 {/* Logo */}
                 <Typography variant="h6" fontWeight="bold">
-                    Bodega Montaña Negra
+                    Château Picard
                 </Typography>
 
                 {/* DESKTOP MENU */}
@@ -83,6 +84,10 @@ export default function Header() {
 
                     <HeaderButton onClick={() => i18n.changeLanguage("ca")}>
                         CA
+                    </HeaderButton>
+
+                    <HeaderButton onClick={() => i18n.changeLanguage("en")}>
+                        EN
                     </HeaderButton>
 
                     <IconButton onClick={toggleColorMode}>

@@ -10,9 +10,11 @@ const resources = {
                 pricing: "Precios",
                 contact: "Contacto",
             },
-            header: {
-                title: "Bodega Montaña Negra",
-                subtitle: "Vinos de alta calidad desde 1970",
+            hero: {
+                title: "Château Picard",
+                subtitle:
+                    "Vinos con legado estelar, elaborados con tradición familiar desde 2234.",
+                button: "Descubrir nuestros vinos",
             },
         },
     },
@@ -24,9 +26,11 @@ const resources = {
                 pricing: "Preus",
                 contact: "Contacte",
             },
-            header: {
-                title: "Celler Muntanya Negra",
-                subtitle: "Vins d'alta qualitat des de 1970",
+            hero: {
+                title: "Château Picard",
+                subtitle:
+                    "Vins amb un llegat estel·lar, fet amb tradició familiar des del 2234.",
+                button: "Descobrir els nostres vins",
             },
         },
     },
@@ -38,9 +42,11 @@ const resources = {
                 pricing: "Pricing",
                 contact: "Contact",
             },
-            header: {
-                title: "Montaña Negra Winery",
-                subtitle: "High quality wines since 1970",
+            hero: {
+                title: "Château Picard",
+                subtitle:
+                    "Wines with a stellar legacy, made with family tradition since 2234.",
+                button: "Discover our wines",
             },
         },
     },
