@@ -6,53 +6,9 @@ import {
     CardMedia,
     CardContent,
 } from "@mui/material";
+import { useTranslation } from "react-i18next";
 
 const wines = [
-    {
-        name: "Reserva Tinto",
-        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
-    },
-    {
-        name: "Reserva Tinto",
-        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
-    },
-    {
-        name: "Reserva Tinto",
-        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
-    },
-    {
-        name: "Reserva Tinto",
-        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
-    },
-    {
-        name: "Reserva Tinto",
-        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
-    },
-    {
-        name: "Reserva Tinto",
-        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
-    },
-    {
-        name: "Reserva Tinto",
-        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
-    },
-    {
-        name: "Reserva Tinto",
-        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
-    },
-    {
-        name: "Reserva Tinto",
-        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
-    },
     {
         name: "Reserva Tinto",
         description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
@@ -61,10 +17,11 @@ const wines = [
 ];
 
 export default function FeaturedWines() {
+    const { t } = useTranslation();
     return (
         <Box sx={{ mt: 8, px: 2, mb: 6 }}>
             <Typography variant="h4" align="center" sx={{ mb: 4 }}>
-                Vinos Destacados
+                {t("home.featuredTitle")}
             </Typography>
 
             <Grid container spacing={4} justifyContent="center">

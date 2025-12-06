@@ -1,8 +1,10 @@
 import { Box, Typography, Container } from "@mui/material";
 import HeroSection from "../../components/home/HeroSection";
 import FeaturedWines from "../../components/home/FeaturedWines";
+import { useTranslation } from "react-i18next";
 
 export default function HomePage() {
+    const { t } = useTranslation();
     return (
         <Box>
             <HeroSection />
@@ -15,13 +17,11 @@ export default function HomePage() {
             >
                 <Box sx={{ mt: 6, textAlign: "center" }}>
                     <Typography variant="h4" sx={{ mb: 2 }}>
-                        Nuestra filosofía
+                        {t("home.title")}
                     </Typography>
 
                     <Typography sx={{ maxWidth: 700, mx: "auto" }}>
-                        En nuestra bodega cuidamos cada detalle del proceso de
-                        elaboración del vino, combinando tradición e innovación
-                        para ofrecer una experiencia única en cada copa.
+                        {t("home.subtitle")}
                     </Typography>
                 </Box>
 

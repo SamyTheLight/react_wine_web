@@ -16,6 +16,12 @@ const resources = {
                     "Vinos con legado estelar, elaborados con tradición familiar desde 2234.",
                 button: "Descubrir nuestros vinos",
             },
+            home: {
+                title: "Nuestra filosofía",
+                subtitle:
+                    "Cuidamos cada detalle del proceso de elaboración del vino.",
+                featuredTitle: "Vinos destacados",
+            },
         },
     },
     ca: {
@@ -32,6 +38,12 @@ const resources = {
                     "Vins amb un llegat estel·lar, fet amb tradició familiar des del 2234.",
                 button: "Descobrir els nostres vins",
             },
+            home: {
+                title: "La nostra filosofia",
+                subtitle:
+                    "Cuidamos cada detalle del proceso de elaboración del vino.",
+                featuredTitle: "Vins destacats",
+            },
         },
     },
     en: {
@@ -47,6 +59,12 @@ const resources = {
                 subtitle:
                     "Wines with a stellar legacy, made with family tradition since 2234.",
                 button: "Discover our wines",
+            },
+            home: {
+                title: "Our philosophy",
+                subtitle:
+                    "We take care of every detail of the winemaking process.",
+                featuredTitle: "Featured wines",
             },
         },
     },
