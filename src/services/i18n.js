@@ -30,6 +30,22 @@ const resources = {
                 send: "Enviar mensaje",
                 success: "Mensaje enviado correctamente.",
             },
+
+            history: {
+                title: "Nuestra historia",
+                stage1: {
+                    title: "1900 – Los inicios",
+                    text: "La bodega fue fundada como un proyecto familiar, con viñedos cultivados de forma tradicional.",
+                },
+                stage2: {
+                    title: "1950 – Expansión",
+                    text: "La segunda generación amplió la producción y llevó nuestros vinos a nuevos mercados.",
+                },
+                stage3: {
+                    title: "2000 – Innovación",
+                    text: "Combinamos técnicas modernas con la tradición para crear vinos de alta calidad.",
+                },
+            },
         },
     },
     ca: {
