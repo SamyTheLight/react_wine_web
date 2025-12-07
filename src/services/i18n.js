@@ -124,18 +124,18 @@ const resources = {
             },
 
             history: {
-                title: "La nostra història",
+                title: "Our history",
                 stage1: {
-                    title: "1900 – Els inicis",
-                    text: "El celler va ser fundat com un projecte familiar, amb vinyes cultivades de manera tradicional.",
+                    title: "1900 – Beginnings",
+                    text: "The winery was founded as a family project, with vineyards cultivated using traditional methods.",
                 },
                 stage2: {
-                    title: "1950 – Expansió",
-                    text: "La segona generació va ampliar la producció i va portar els nostres vins a nous mercats.",
+                    title: "1950 – Expansion",
+                    text: "The second generation expanded production and brought our wines to new markets.",
                 },
                 stage3: {
-                    title: "2000 – Innovació",
-                    text: "Combinem tècniques modernes amb la tradició per crear vins d'alta qualitat.",
+                    title: "2000 – Innovation",
+                    text: "We combine modern techniques with tradition to create high-quality wines.",
                 },
             },
         },
