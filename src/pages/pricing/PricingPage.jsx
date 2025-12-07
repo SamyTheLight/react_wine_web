@@ -16,12 +16,10 @@ export default function PricingPage() {
 
     return (
         <Container maxWidth="lg" sx={{ py: 6 }}>
-            {/* TÍTULO */}
             <Typography variant="h4" align="center" sx={{ mb: 6 }}>
                 {t("pricing.title")}
             </Typography>
 
-            {/* CARDS */}
             <Grid container spacing={4} justifyContent="center">
                 {plans.map((plan) => (
                     <Grid item xs={12} md={4} key={plan.key}>
