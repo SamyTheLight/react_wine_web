@@ -14,6 +14,21 @@ const wines = [
         description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
         image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
     },
+    {
+        name: "Reserva Tinto",
+        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
+        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
+    },
+    {
+        name: "Reserva Tinto",
+        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
+        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
+    },
+    {
+        name: "Reserva Tinto",
+        description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
+        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
+    },
 ];
 
 export default function FeaturedWines() {

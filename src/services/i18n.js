@@ -22,6 +22,14 @@ const resources = {
                     "Cuidamos cada detalle del proceso de elaboración del vino.",
                 featuredTitle: "Vinos destacados",
             },
+            contact: {
+                title: "Contacto",
+                name: "Nombre",
+                email: "Correo electrónico",
+                message: "Mensaje",
+                send: "Enviar mensaje",
+                success: "Mensaje enviado correctamente.",
+            },
         },
     },
     ca: {
@@ -44,6 +52,14 @@ const resources = {
                     "Cuidamos cada detalle del proceso de elaboración del vino.",
                 featuredTitle: "Vins destacats",
             },
+            contact: {
+                title: "Contacte",
+                name: "Nom",
+                email: "Correu electrònic",
+                message: "Missatge",
+                send: "Enviar missatge",
+                success: "Missatge enviat correctament.",
+            },
         },
     },
     en: {
@@ -65,6 +81,14 @@ const resources = {
                 subtitle:
                     "We take care of every detail of the winemaking process.",
                 featuredTitle: "Featured wines",
+            },
+            contact: {
+                title: "Contact",
+                name: "Name",
+                email: "Email",
+                message: "Message",
+                send: "Send message",
+                success: "Message sent successfully.",
             },
         },
     },
