@@ -6,12 +6,10 @@ export default function HistoryPage() {
 
     return (
         <Container maxWidth="lg" sx={{ py: 6 }}>
-            {/* TÍTULO */}
             <Typography variant="h4" align="center" sx={{ mb: 4 }}>
                 {t("history.title")}
             </Typography>
 
-            {/* IMAGEN */}
             <Box
                 sx={{
                     width: "100%",
@@ -25,7 +23,6 @@ export default function HistoryPage() {
                 }}
             />
 
-            {/* BLOQUES DE HISTORIA */}
             <Grid container spacing={4}>
                 <Grid item xs={12} md={4}>
                     <Typography variant="h6" sx={{ mb: 1 }}>

@@ -49,12 +49,10 @@ export default function Header() {
             }}
         >
             <Toolbar sx={{ justifyContent: "space-between" }}>
-                {/* Logo */}
                 <Typography variant="h6" fontWeight="bold">
                     Château Picard
                 </Typography>
 
-                {/* DESKTOP MENU */}
                 <Box
                     sx={{
                         display: { xs: "none", sm: "flex" },
@@ -99,7 +97,6 @@ export default function Header() {
                     </IconButton>
                 </Box>
 
-                {/* MOBILE MENU */}
                 <Box sx={{ display: { xs: "flex", sm: "none" } }}>
                     <IconButton onClick={handleMenuOpen} color="inherit">
                         <MenuIcon />
@@ -118,7 +115,6 @@ export default function Header() {
                             horizontal: "right",
                         }}
                     >
-                        {/* Pages */}
                         <MenuItem
                             component={RouterLink}
                             to="/"

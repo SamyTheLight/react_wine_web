@@ -5,7 +5,7 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 
 import App from "./App";
 import { ColorModeProvider, useColorModeTheme } from "./services/theme";
-import "./services/i18n"; // inicializar i18next
+import "./services/i18n";
 
 function AppWithTheme() {
     const { theme } = useColorModeTheme();

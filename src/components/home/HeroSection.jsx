@@ -20,7 +20,6 @@ export default function HeroSection() {
                 px: 2,
             }}
         >
-            {/* Overlay oscuro */}
             <Box
                 sx={{
                     position: "absolute",
@@ -29,7 +28,6 @@ export default function HeroSection() {
                 }}
             />
 
-            {/* Contenido */}
             <Box sx={{ position: "relative", zIndex: 1, maxWidth: 700 }}>
                 <Typography
                     variant="h3"

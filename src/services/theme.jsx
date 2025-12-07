@@ -22,10 +22,10 @@ export function ColorModeProvider({ children }) {
                 palette: {
                     mode,
                     primary: {
-                        main: "#8b1538", // tono vino tinto
+                        main: "#8b1538",
                     },
                     secondary: {
-                        main: "#d1a75f", // dorado suave
+                        main: "#d1a75f",
                     },
                     background: {
                         default: mode === "light" ? "#faf5f0" : "#121212ff",

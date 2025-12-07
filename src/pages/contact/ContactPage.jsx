@@ -54,7 +54,6 @@ export default function ContactPage() {
             </Typography>
 
             <Grid container spacing={6}>
-                {/* FORMULARIO */}
                 <Grid item xs={12} md={6}>
                     <Box component="form" onSubmit={handleSubmit}>
                         <TextField
@@ -107,7 +106,6 @@ export default function ContactPage() {
                     </Box>
                 </Grid>
 
-                {/* MAPA */}
                 <Grid item xs={12} md={6}>
                     <Box
                         sx={{
