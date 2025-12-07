@@ -46,6 +46,29 @@ const resources = {
                     text: "Combinamos técnicas modernas con la tradición para crear vinos de alta calidad.",
                 },
             },
+
+            pricing: {
+                title: "Nuestros precios",
+                button: "Más información",
+                basic: {
+                    title: "Vino Básico",
+                    price: "12€",
+                    description:
+                        "Un vino joven, fresco y perfecto para el día a día.",
+                },
+                premium: {
+                    title: "Vino Premium",
+                    price: "25€",
+                    description:
+                        "Seleccionado de viñedos especiales con mayor crianza.",
+                },
+                reserve: {
+                    title: "Gran Reserva",
+                    price: "45€",
+                    description:
+                        "Nuestro vino más exclusivo, elaborado con uvas seleccionadas.",
+                },
+            },
         },
     },
     ca: {
@@ -92,6 +115,29 @@ const resources = {
                     text: "Combinem tècniques modernes amb la tradició per crear vins d'alta qualitat.",
                 },
             },
+
+            pricing: {
+                title: "Els nostres preus",
+                button: "Més informació",
+                basic: {
+                    title: "Vi Bàsic",
+                    price: "12€",
+                    description:
+                        "Un vi jove, fresc i perfecte per al dia a dia.",
+                },
+                premium: {
+                    title: "Vi Premium",
+                    price: "25€",
+                    description:
+                        "Seleccionat de vinyes especials amb més criança.",
+                },
+                reserve: {
+                    title: "Gran Reserva",
+                    price: "45€",
+                    description:
+                        "El nostre vi més exclusiu, elaborat amb raïm seleccionat.",
+                },
+            },
         },
     },
     en: {
@@ -136,6 +182,29 @@ const resources = {
                 stage3: {
                     title: "2000 – Innovation",
                     text: "We combine modern techniques with tradition to create high-quality wines.",
+                },
+            },
+
+            pricing: {
+                title: "Our pricing",
+                button: "More information",
+                basic: {
+                    title: "Basic Wine",
+                    price: "€12",
+                    description:
+                        "A young and fresh wine, perfect for everyday enjoyment.",
+                },
+                premium: {
+                    title: "Premium Wine",
+                    price: "€25",
+                    description:
+                        "Selected from special vineyards with longer aging.",
+                },
+                reserve: {
+                    title: "Grand Reserve",
+                    price: "€45",
+                    description:
+                        "Our most exclusive wine, made from selected grapes.",
                 },
             },
         },
