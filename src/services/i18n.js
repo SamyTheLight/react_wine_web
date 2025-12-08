@@ -46,26 +46,8 @@ const resources = {
                 },
             },
             pricing: {
-                title: "Nuestros precios",
-                button: "Más información",
-                basic: {
-                    title: "Vino Básico",
-                    price: "12€",
-                    description:
-                        "Un vino joven, fresco y perfecto para el día a día.",
-                },
-                premium: {
-                    title: "Vino Premium",
-                    price: "25€",
-                    description:
-                        "Seleccionado de viñedos especiales con mayor crianza.",
-                },
-                reserve: {
-                    title: "Gran Reserva",
-                    price: "45€",
-                    description:
-                        "Nuestro vino más exclusivo, elaborado con uvas seleccionadas.",
-                },
+                title: "Nuestros Vinos",
+                moreInfo: "Más información",
             },
         },
     },
@@ -113,26 +95,8 @@ const resources = {
                 },
             },
             pricing: {
-                title: "Els nostres preus",
-                button: "Més informació",
-                basic: {
-                    title: "Vi Bàsic",
-                    price: "12€",
-                    description:
-                        "Un vi jove, fresc i perfecte per al dia a dia.",
-                },
-                premium: {
-                    title: "Vi Premium",
-                    price: "25€",
-                    description:
-                        "Seleccionat de vinyes especials amb més criança.",
-                },
-                reserve: {
-                    title: "Gran Reserva",
-                    price: "45€",
-                    description:
-                        "El nostre vi més exclusiu, elaborat amb raïm seleccionat.",
-                },
+                title: "Els nostres vins",
+                moreInfo: "Més informació",
             },
         },
     },
@@ -180,26 +144,8 @@ const resources = {
                 },
             },
             pricing: {
-                title: "Our pricing",
-                button: "More information",
-                basic: {
-                    title: "Basic Wine",
-                    price: "€12",
-                    description:
-                        "A young and fresh wine, perfect for everyday enjoyment.",
-                },
-                premium: {
-                    title: "Premium Wine",
-                    price: "€25",
-                    description:
-                        "Selected from special vineyards with longer aging.",
-                },
-                reserve: {
-                    title: "Grand Reserve",
-                    price: "€45",
-                    description:
-                        "Our most exclusive wine, made from selected grapes.",
-                },
+                title: "Our Wines",
+                moreInfo: "More Info.",
             },
         },
     },
