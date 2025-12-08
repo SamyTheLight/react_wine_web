@@ -23,14 +23,13 @@ const resources = {
                 featuredTitle: "Vinos destacados",
             },
             contact: {
-                title: "Contacto",
+                heroTitle: "Si tienes cualquier duda, rellena este formulario",
+                subtitle: "Vinos de tradición estelar",
                 name: "Nombre",
                 email: "Correo electrónico",
                 message: "Mensaje",
                 send: "Enviar mensaje",
-                success: "Mensaje enviado correctamente.",
             },
-
             history: {
                 title: "Nuestra historia",
                 stage1: {
@@ -46,7 +45,6 @@ const resources = {
                     text: "Combinamos técnicas modernas con la tradición para crear vinos de alta calidad.",
                 },
             },
-
             pricing: {
                 title: "Nuestros precios",
                 button: "Más información",
@@ -92,14 +90,13 @@ const resources = {
                 featuredTitle: "Vins destacats",
             },
             contact: {
-                title: "Contacte",
+                heroTitle: "Si teniu cap pregunta, empleneu aquest formulari",
+                subtitle: "Vins amb tradició estel·lar",
                 name: "Nom",
                 email: "Correu electrònic",
                 message: "Missatge",
                 send: "Enviar missatge",
-                success: "Missatge enviat correctament.",
             },
-
             history: {
                 title: "La nostra història",
                 stage1: {
@@ -115,7 +112,6 @@ const resources = {
                     text: "Combinem tècniques modernes amb la tradició per crear vins d'alta qualitat.",
                 },
             },
-
             pricing: {
                 title: "Els nostres preus",
                 button: "Més informació",
@@ -161,14 +157,13 @@ const resources = {
                 featuredTitle: "Featured wines",
             },
             contact: {
-                title: "Contact",
+                heroTitle: "If you have any questions, fill out this form",
+                subtitle: "Wines with stellar tradition",
                 name: "Name",
                 email: "Email",
                 message: "Message",
                 send: "Send message",
-                success: "Message sent successfully.",
             },
-
             history: {
                 title: "Our history",
                 stage1: {
@@ -184,7 +179,6 @@ const resources = {
                     text: "We combine modern techniques with tradition to create high-quality wines.",
                 },
             },
-
             pricing: {
                 title: "Our pricing",
                 button: "More information",
