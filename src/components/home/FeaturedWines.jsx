@@ -12,22 +12,22 @@ const wines = [
     {
         name: "Reserva Tinto",
         description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
+        image: "https://images.unsplash.com/photo-1592845148519-b0d41df97ac2?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         name: "Reserva Tinto",
         description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
+        image: "https://images.unsplash.com/photo-1592845148519-b0d41df97ac2?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         name: "Reserva Tinto",
         description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
+        image: "https://images.unsplash.com/photo-1592845148519-b0d41df97ac2?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         name: "Reserva Tinto",
         description: "Vino tinto con cuerpo, elaborado con uvas seleccionadas.",
-        image: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc",
+        image: "https://images.unsplash.com/photo-1592845148519-b0d41df97ac2?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
 ];
 

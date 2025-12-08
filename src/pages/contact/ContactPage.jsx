@@ -1,11 +1,9 @@
 import { Box, Typography, TextField, Button, Grid } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import { useTheme } from "@mui/material/styles";
 
 export default function ContactPage() {
     const { t } = useTranslation();
-    const theme = useTheme();
 
     const [form, setForm] = useState({
         name: "",
@@ -38,8 +36,6 @@ export default function ContactPage() {
         <>
             <Box
                 sx={{
-                    backgroundColor: theme.palette.background.paper,
-                    color: theme.palette.text.primary,
                     display: "flex",
                     alignItems: "center",
                     px: { xs: 2, md: 6 },
