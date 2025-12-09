@@ -38,7 +38,7 @@ La web está disponible en **tres idiomas**:
 -   Aviso de cookies implementado con Material UI
 -   Persistencia mediante `localStorage`
 
-### Instalación y ejecución en local
+## Instalación y ejecución en local
 
 1. Clonar el repositorio:
 
