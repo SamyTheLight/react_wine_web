@@ -1,5 +1,6 @@
 import { Box, Typography, Button } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
     const { t } = useTranslation();
@@ -44,7 +45,13 @@ export default function HeroSection() {
                     {t("hero.subtitle")}
                 </Typography>
 
-                <Button variant="contained" color="secondary" size="large">
+                <Button
+                    variant="contained"
+                    color="secondary"
+                    size="large"
+                    component={Link}
+                    to="/pricing"
+                >
                     {t("hero.button")}
                 </Button>
             </Box>

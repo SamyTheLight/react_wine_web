@@ -1,11 +1,11 @@
-# 🍷 Web de Bodega – React + Material UI
+# Web de Bodega – React + Material UI
 
 Este proyecto consiste en el desarrollo de una **página web para una bodega de vinos**, utilizando **React** y **Material UI**.  
 El objetivo principal es ofrecer una web moderna, responsive y accesible, que muestre información sobre la bodega, sus vinos y formas de contacto.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 -   **React** (con Vite)
 -   **React Router** – navegación entre páginas
@@ -15,9 +15,9 @@ El objetivo principal es ofrecer una web moderna, responsive y accesible, que mu
 
 ---
 
-## 🌍 Funcionalidades principales
+## Funcionalidades principales
 
-### ✅ Navegación
+### Navegación
 
 -   Sistema de rutas usando React Router
 -   Páginas disponibles:
@@ -28,7 +28,7 @@ El objetivo principal es ofrecer una web moderna, responsive y accesible, que mu
 
 ---
 
-### ✅ Diseño responsive
+### Diseño responsive
 
 -   Adaptación completa a:
     -   móviles
@@ -38,7 +38,7 @@ El objetivo principal es ofrecer una web moderna, responsive y accesible, que mu
 
 ---
 
-### ✅ Home Page
+### Home Page
 
 -   Imagen de fondo con overlay
 -   Sección de vinos destacados mostrados mediante cards
@@ -46,7 +46,7 @@ El objetivo principal es ofrecer una web moderna, responsive y accesible, que mu
 
 ---
 
-### ✅ Historia de la bodega
+### Historia de la bodega
 
 -   Página visual con imagen destacada
 -   Información dividida en bloques temporales
@@ -54,7 +54,7 @@ El objetivo principal es ofrecer una web moderna, responsive y accesible, que mu
 
 ---
 
-### ✅ Página de precios
+### Página de precios
 
 -   Presentación de vinos mediante tarjetas
 -   Precios descriptivos
@@ -62,7 +62,7 @@ El objetivo principal es ofrecer una web moderna, responsive y accesible, que mu
 
 ---
 
-### ✅ Página de contacto
+### Página de contacto
 
 -   Formulario con campos:
     -   Nombre
@@ -73,7 +73,7 @@ El objetivo principal es ofrecer una web moderna, responsive y accesible, que mu
 
 ---
 
-## 🌐 Internacionalización (i18n)
+## Internacionalización (i18n)
 
 La web está disponible en **tres idiomas**:
 
@@ -85,7 +85,7 @@ El idioma se puede cambiar desde el header y se aplica en tiempo real a toda la 
 
 ---
 
-## 🌙 Dark Mode / Light Mode
+## Dark Mode / Light Mode
 
 -   Sistema de tema oscuro y claro
 -   Implementado mediante Context API y ThemeProvider de Material UI
@@ -94,13 +94,13 @@ El idioma se puede cambiar desde el header y se aplica en tiempo real a toda la 
 
 ---
 
-## 🍪 Pop-up de cookies
+## Pop-up de cookies
 
 -   Aviso de cookies implementado con Material UI
 -   Persistencia mediante `localStorage`
 -   El mensaje solo se muestra la primera vez que se accede a la web
 
-## 🚀 Instalación y ejecución
+## Instalación y ejecución
 
 1. Clonar el repositorio:
 
