@@ -51,3 +51,7 @@ npm install
 3. Ejecutar el proyecto:
 
 npm run dev
+
+## Despliegue entorno de producción, enlace:
+
+https://reactwineweb.netlify.app/history
