@@ -15,7 +15,7 @@ Este proyecto consiste en el desarrollo de una **página web para una bodega de 
 
 ## Funcionalidades principales
 
-## Internacionalización (i18n)
+### Internacionalización (i18n)
 
 La web está disponible en **tres idiomas**:
 
@@ -25,7 +25,7 @@ La web está disponible en **tres idiomas**:
 
 ---
 
-## Dark Mode / Light Mode
+### Dark Mode / Light Mode
 
 -   Sistema de tema oscuro y claro
 -   Implementado mediante Context API y ThemeProvider de Material UI
@@ -33,12 +33,12 @@ La web está disponible en **tres idiomas**:
 
 ---
 
-## Pop-up de cookies
+### Pop-up de cookies
 
 -   Aviso de cookies implementado con Material UI
 -   Persistencia mediante `localStorage`
 
-## Instalación y ejecución en local
+### Instalación y ejecución en local
 
 1. Clonar el repositorio:
 
