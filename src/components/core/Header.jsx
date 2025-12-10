@@ -16,16 +16,24 @@ import { useTranslation } from "react-i18next";
 import { useColorModeTheme } from "../../services/theme";
 import { useState } from "react";
 import LanguageMenu from "./LanguageMenu";
-
+import { useTheme, useMediaQuery } from "@mui/material";
+import { useEffect } from "react";
 import HeaderButton from "../shared/HeaderButton";
 
 export default function Header() {
     const { t, i18n } = useTranslation();
     const { mode, toggleColorMode } = useColorModeTheme();
     const navTextColor = mode === "light" ? "#4b2e1e" : "#ffffff";
-
+    const theme = useTheme();
+    const isDesktop = useMediaQuery(theme.breakpoints.up("sm"));
     const [anchorEl, setAnchorEl] = useState(null);
     const open = Boolean(anchorEl);
+
+    useEffect(() => {
+        if (isDesktop && anchorEl) {
+            setAnchorEl(null);
+        }
+    }, [isDesktop, anchorEl]);
 
     const handleMenuOpen = (event) => {
         setAnchorEl(event.currentTarget);
@@ -51,7 +59,20 @@ export default function Header() {
         >
             <Toolbar sx={{ justifyContent: "space-between" }}>
                 <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-                    <Typography variant="h6" fontWeight="bold">
+                    <Typography
+                        variant="h6"
+                        fontWeight="bold"
+                        component={RouterLink}
+                        to="/"
+                        sx={{
+                            textDecoration: "none",
+                            color: "inherit",
+                            cursor: "pointer",
+                            "&:hover": {
+                                opacity: 0.85,
+                            },
+                        }}
+                    >
                         Château Picard
                     </Typography>
                     <LanguageMenu />
