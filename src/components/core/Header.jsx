@@ -15,6 +15,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useColorModeTheme } from "../../services/theme";
 import { useState } from "react";
+import LanguageMenu from "./LanguageMenu";
 
 import HeaderButton from "../shared/HeaderButton";
 
@@ -49,9 +50,12 @@ export default function Header() {
             }}
         >
             <Toolbar sx={{ justifyContent: "space-between" }}>
-                <Typography variant="h6" fontWeight="bold">
-                    Château Picard
-                </Typography>
+                <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+                    <Typography variant="h6" fontWeight="bold">
+                        Château Picard
+                    </Typography>
+                    <LanguageMenu />
+                </Box>
 
                 <Box
                     sx={{
@@ -74,18 +78,6 @@ export default function Header() {
 
                     <HeaderButton component={RouterLink} to="/contact">
                         {t("nav.contact")}
-                    </HeaderButton>
-
-                    <HeaderButton onClick={() => i18n.changeLanguage("es")}>
-                        ES
-                    </HeaderButton>
-
-                    <HeaderButton onClick={() => i18n.changeLanguage("ca")}>
-                        CA
-                    </HeaderButton>
-
-                    <HeaderButton onClick={() => i18n.changeLanguage("en")}>
-                        EN
                     </HeaderButton>
 
                     <IconButton onClick={toggleColorMode}>
